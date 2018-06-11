@@ -1,6 +1,6 @@
 ## 准备目录
-1. 在github上fork项目到自己的repo
-2. 在自己的github上clone改项目到本地
+1. 在github上`fork`项目到自己的repo
+2. 在自己的github上`clone`该项目到本地
 ```cmd
 git clone https://github.com/你的名字/gzlsd_addons.git
 ```
@@ -21,6 +21,7 @@ git fetch gzlsd_addons
 git merge gzlsd_addons/master
 ```
 
+
 ## 推送本地修改
 1. 添加要提交的目录
 ```cmd
@@ -34,5 +35,5 @@ git commit -m "本次修改的描述"
 ```cmd
 git push 
 ```
-4. 在github网页上点击pull request按钮
-5. 如果有pull request 没有被接受，之后新的push自动会合并到pullrequest
+4. 在github网页上点击`pull request`按钮
+5. 如果有pull request没有被接受，之后新的push自动会合并到pull request
