@@ -20,7 +20,7 @@ npm i eslint -g
 Vue Devtools
 
 ## 准备开发
-1. [准备Github环境](/develop/github.md)
+1. [准备Github环境](//andrewsty.github.io/develop/github.html)
 2. 在`package.json`所在目录执行`npm i`安装依赖，等待完成
 3. 使用`npm run serve`命令运行即可开始调试
 
