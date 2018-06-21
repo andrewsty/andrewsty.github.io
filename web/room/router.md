@@ -1,3 +1,4 @@
+```javscript
 export const asyncRoutes = [
   {
     path: '/room',
@@ -8,3 +9,4 @@ export const asyncRoutes = [
   },
   { path: '*', redirect: '/404' }
 ]
+```
