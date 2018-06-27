@@ -6,9 +6,11 @@ git clone https://github.com/你的名字/gzlsd_addons.git
 ```
 3. 进入gzlsd_addons目录，增加远程分支`https://github.com/andrewsty/gzlsd_addons.git`到你本地。
 ```cmd
+cd gzlsd_addons
 git remote add gzlsd_addons https://github.com/andrewsty/gzlsd_addons.git
 ```
 环境就准备好了
+**以下操作可以在IDE中完成**
 
 ## 更新远程分支
 
@@ -33,7 +35,7 @@ git commit -m "本次修改的描述"
 ```
 3. 推送到github
 ```cmd
-git push 
+git push
 ```
 4. 在github网页上点击`pull request`按钮
 5. 如果有pull request没有被接受，之后新的push自动会合并到pull request
